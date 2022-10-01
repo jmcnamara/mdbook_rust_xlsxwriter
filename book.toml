@@ -1,0 +1,6 @@
+[book]
+authors = ["John McNamara"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Working with the rust_xlsxwriter library"
