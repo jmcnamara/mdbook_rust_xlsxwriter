@@ -4,7 +4,7 @@ Formats are created by calling the [`Format::new()`] method and properties as
 set using the various methods shown is this section of the document. Once
 the Format has been created it can be passed to one of the worksheet
 `write_*()` methods. Multiple properties can be set by chaining them
-together:
+together, for example:
 
 
 [`Format::new()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Format.html#method.new

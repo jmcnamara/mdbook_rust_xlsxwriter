@@ -1,7 +1,7 @@
 # Author
 
 
-XlsxWriter was written by John McNamara, who also wrote:
+`rust_xlsxwriter` was written by John McNamara, who also wrote:
 
  - [XlsxWriter (Python)][1]
  - [libxlsxwriter (C)][5]
