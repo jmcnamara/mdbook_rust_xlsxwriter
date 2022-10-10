@@ -5,7 +5,7 @@ starting point for creating a new Excel xlsx file.
 
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:7:}}
 ```
 ![Image of output from doc_workbook_new.rs](../../images/workbook_new.png)
 

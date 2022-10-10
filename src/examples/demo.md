@@ -7,5 +7,5 @@ dates.
 ![Image of output from app_demo.rs](../../images/demo.png)
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_demo.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_demo.rs:7:}}
 ```

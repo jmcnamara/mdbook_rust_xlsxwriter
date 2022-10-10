@@ -7,5 +7,5 @@ by some middle eastern versions of Excel.
 ![Image of output from app_right_to_left.rs](../../images/worksheet_set_right_to_left.png)
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_right_to_left.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_right_to_left.rs:7:}}
 ```

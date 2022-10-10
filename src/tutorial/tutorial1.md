@@ -4,7 +4,7 @@ To add some sample expense data to a worksheet we could start with a simple
 program like the following:
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:7:}}
 
 ```
 
@@ -23,8 +23,8 @@ filename that we want to create:
 [`workbook::new`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.new
 
 
-```rust,ignore
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:14}}
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:14}}
 ```
 
 **Note**, `rust_xlsxwriter` can only create new files. It cannot read or modify
@@ -37,8 +37,8 @@ The workbook object is then used to add a new worksheet via the
 
 
 
-```rust,ignore
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:17}}
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:17}}
 ```
 The worksheet will have a standard Excel name, in this case "Sheet1". You can
 specify the worksheet name using the [`worksheet.set_name()`] method.
@@ -54,8 +54,8 @@ We then iterate over the data and use the [`worksheet.write_string_only()`] and
 
 
 
-```rust,ignore
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:21:25}}
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:21:25}}
 ```
 
 The `_only` part of the method names refers to the fact that the data type is
@@ -66,8 +66,8 @@ the first cell in a worksheet, `A1`, is `(0, 0)`.
 
 We then add a formula to calculate the total of the items in the second column:
 
-```rust,ignore
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:29}}
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:29}}
 ```
 
 Finally, we close the Excel file via the [`workbook.close()`] method:
@@ -75,8 +75,8 @@ Finally, we close the Excel file via the [`workbook.close()`] method:
 [`workbook.close()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.close
 
 
-```rust,ignore
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:32}}
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:32}}
 ```
 
 This will give us the spreadsheet shown in the image above.

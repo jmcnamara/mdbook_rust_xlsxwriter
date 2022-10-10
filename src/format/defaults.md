@@ -7,7 +7,7 @@ It is occasionally useful to use a default format with a method that requires a
 format but where you don't actually want to change the formatting.
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/doc_format_default.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_default.rs:7:}}
 ```
 
 Output showing that both strings have the same format:

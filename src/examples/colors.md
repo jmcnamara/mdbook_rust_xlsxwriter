@@ -6,5 +6,5 @@ in the rust_xlsxwriter library.
 ![Image of output from app_colors.rs](../../images/colors.png)
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_colors.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_colors.rs:7:}}
 ```

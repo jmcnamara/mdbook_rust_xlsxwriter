@@ -15,7 +15,7 @@ made the "Total" string bold.
 To do this programmatically we can extend our code as follows:
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:7:}}
 ```
 
 The main difference between this and the previous program is that we have added
@@ -31,8 +31,8 @@ explained in more detail in the [Format] struct documentation.
 For now we will avoid getting into the details of Format and just use a limited
 amount of the its functionality to add some simple formatting:
 
-```rust,ignore
-{{#include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:16:20}}
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:16:20}}
 ```
 
 We can use these formats in worksheet methods that support formatting such as

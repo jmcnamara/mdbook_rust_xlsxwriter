@@ -6,6 +6,6 @@ rust_xlsxwriter library.
 ![Image of output from app_hello_world.rs](../../images/hello.png)
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_hello_world.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_hello_world.rs:7:}}
 
 ```

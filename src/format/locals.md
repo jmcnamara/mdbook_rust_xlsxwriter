@@ -8,7 +8,7 @@ a number format with a "grouping/thousands" separator and a "decimal" point:
 
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/doc_format_locale.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_locale.rs:7:}}
 ```
 
 In the US locale (and some others) where the number "grouping/thousands"

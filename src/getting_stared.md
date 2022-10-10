@@ -39,7 +39,7 @@ rust_xlsxwriter = "0.2.1"
 Modify the main.rs file so it looks like this:
 
 ```rust
-{{#include ../../rust_xlsxwriter/examples/app_hello_world.rs:7:}}
+{{#rustdoc_include ../../rust_xlsxwriter/examples/app_hello_world.rs:7:}}
 ```
 
 The run the application as follows:

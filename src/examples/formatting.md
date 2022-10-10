@@ -7,5 +7,5 @@ sections of the Excel "Format Cells" dialog.
 ![Image of output from app_formatting.rs](../../images/formatting.png)
 
 ```rust
-{{#include ../../../rust_xlsxwriter/examples/app_formatting.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_formatting.rs:7:}}
 ```
