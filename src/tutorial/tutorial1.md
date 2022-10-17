@@ -31,7 +31,7 @@ filename that we want to create:
 existing files.
 
 The workbook object is then used to add a new worksheet via the
-[`add_worksheet`] method:
+[`add_worksheet()`] method:
 
 [`add_worksheet()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.add_worksheet
 

@@ -13,6 +13,7 @@
 - [The Workbook struct](workbook/intro.md)
 
 - [The Worksheet struct](worksheet/intro.md)
+    - [Adding Headers and Footers](worksheet/headers.md)
 
 - [The Format struct](format/intro.md)
     - [Creating and using a Format object](format/creating.md)
@@ -36,6 +37,7 @@
     - [Format colors](examples/colors.md)
     - [Right to left display](examples/right_to_left.md)
     - [Dynamic array formulas](examples/dynamic_arrays.md)
+    - [Headers and Footers](examples/headers.md)
 
 - [Performance](performance.md)
 - [Release Notes](changelog.md)
