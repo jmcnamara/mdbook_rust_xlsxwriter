@@ -13,6 +13,7 @@
 - [The Workbook struct](workbook/intro.md)
 
 - [The Worksheet struct](worksheet/intro.md)
+    - [Page Setup](worksheet/page_setup.md)
     - [Adding Headers and Footers](worksheet/headers.md)
 
 - [The Format struct](format/intro.md)
