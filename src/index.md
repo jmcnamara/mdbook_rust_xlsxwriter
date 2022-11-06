@@ -1,7 +1,6 @@
 # rust_xlsxwriter
 
-The `rust_xlsxwriter` library is a Rust library for writing Excel files in
-the XLSX format.
+`rust_xlsxwriter` is a Rust library for writing Excel files in the XLSX format.
 
 ![Image of the demo Excel file](images/demo.png)
 

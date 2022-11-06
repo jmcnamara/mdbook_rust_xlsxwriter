@@ -7,5 +7,4 @@ rust_xlsxwriter library.
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_hello_world.rs:7:}}
-
 ```

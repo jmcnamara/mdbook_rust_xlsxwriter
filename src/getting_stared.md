@@ -33,7 +33,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rust_xlsxwriter = "0.6.0"
+rust_xlsxwriter = "0.11.0"
 ```
 
 Modify the main.rs file so it looks like this:

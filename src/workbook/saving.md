@@ -1,0 +1,43 @@
+# Creating and saving an xlsx file
+
+Creating a  [`Workbook`] struct instance to represent an Excel xlsx file is done
+via the [`Workbook::new()`] method:
+
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:10}}
+```
+
+Once you are finished writing data via a worksheet you can save it with the [`workbook.save()`] method:
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:7:}}
+```
+
+This will you a simple output file like the following.
+
+![Image of output from doc_workbook_new.rs](../../images/workbook_new.png)
+
+The file/path string passed to `save()` is converted to a to a [`std::path`]
+internally but you may prefer to work with a Path reference directly in which
+case you can use the [`workbook.save_to_path()`] method:
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_save_to_path.rs:15}}
+```
+
+You can also save the xlsx file data to a `Vec<u8>` buffer via the
+[`workbook.save_to_buffer()`] method:
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_save_to_buffer.rs:15}}
+```
+
+This can be useful if you intend to stream the data.
+
+[`Workbook`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html
+[`std::path`]: https://doc.rust-lang.org/std/path/struct.Path.html
+[`workbook::new()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.new
+[`workbook.save()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save
+[`workbook.save_to_path()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save_to_path
+[`workbook.save_to_buffer()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save_to_buffer

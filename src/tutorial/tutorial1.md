@@ -5,7 +5,6 @@ program like the following:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:7:}}
-
 ```
 
 If we run this program we should get a spreadsheet that looks like this:
@@ -16,11 +15,10 @@ This is a simple program but it demonstrates some of the steps that would
 apply to any rust_xlsxwriter program.
 
 The first step is to create a new workbook object using the
-[`Workbook`] constructor. [`Workbook::new`] takes one argument which is the
-filename that we want to create:
+[`Workbook`] constructor [`Workbook::new()`]:
 
 [`Workbook`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html
-[`workbook::new`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.new
+[`workbook::new()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.new
 
 
 ```rust
@@ -70,9 +68,10 @@ We then add a formula to calculate the total of the items in the second column:
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:29}}
 ```
 
-Finally, we close the Excel file via the [`workbook.close()`] method:
+Finally, we save and close the Excel file via the [`workbook.save()`] method
+which take a path/filename string as an argument:
 
-[`workbook.close()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.close
+[`workbook.save()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save
 
 
 ```rust
@@ -80,3 +79,12 @@ Finally, we close the Excel file via the [`workbook.close()`] method:
 ```
 
 This will give us the spreadsheet shown in the image above.
+
+It is also possible to save to a [`std::path`] Path  or a byte vector using the
+[`workbook.save_to_path()`] and [`workbook.save_to_buffer()`] methods.
+
+We will look at file saving options in the section on TODO.
+
+[`std::path`]: https://doc.rust-lang.org/std/path/struct.Path.html
+[`workbook.save_to_path()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save_to_path
+[`workbook.save_to_buffer()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save_to_buffer
