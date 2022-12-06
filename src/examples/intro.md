@@ -8,6 +8,8 @@ the rust_xlsxwriter library.
 - [Cell formatting](./formatting.md): Demonstrates various formatting options.
 - [Merging cells](./merge_range.md): An example of merge cell ranges.
 - [Format colors](./colors.md): Creates a palette of the available colors.
+- [Hyperlinks](./hyperlinks.md): Add hyperlinks to a worksheet.
+- [Insert images](./images.md): Add images to a worksheet.
 - [Right to left display](./right_to_left.md): Sets a worksheet into right to left format.
 - [Dynamic array formulas](./dynamic_arrays.md): Examples of dynamic arrays and formulas.
 - [Headers and Footers](./headers.md): Shows how to set headers and footers.

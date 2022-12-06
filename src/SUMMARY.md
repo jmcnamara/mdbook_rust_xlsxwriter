@@ -3,7 +3,7 @@
 [rust_xlsxwriter](index.md)
 [Introduction](introduction.md)
 
-- [Getting started](getting_stared.md)
+- [Getting started](getting_started.md)
 
 - [Tutorial](tutorial/intro.md)
     - [Adding data to a worksheet](tutorial/tutorial1.md)
@@ -42,6 +42,8 @@
     - [Cell formatting](examples/formatting.md)
     - [Merging cells](examples/merge_range.md)
     - [Format colors](examples/colors.md)
+    - [Hyperlinks](examples/hyperlinks.md)
+    - [Inserting images](examples/images.md)
     - [Right to left display](examples/right_to_left.md)
     - [Dynamic array formulas](examples/dynamic_arrays.md)
     - [Headers and Footers](examples/headers.md)

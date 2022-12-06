@@ -4,7 +4,7 @@
 
 ![Image of the demo Excel file](images/demo.png)
 
-[Sample code to generate the Excel file shown above](examples/hello_world.md).
+[Sample code to generate the Excel file shown above](examples/demo.md).
 
 rust_xlsxwriter can be used to write text, numbers, dates and formulas to
 multiple worksheets in a new Excel 2007+ XLSX file. It has a focus on
