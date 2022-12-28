@@ -163,3 +163,50 @@ following formula:
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:204}}
 ```
+
+## The Excel 365 LAMBDA() function
+
+Recent versions of Excel 365 have introduced a powerful new function/feature
+called `LAMBDA()`. This is similar to closure expressions in Rust or [lambda
+expressions]
+(https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
+in C++ (and other languages).
+
+Consider the following Excel example which converts the variable `temp` from
+Fahrenheit to Celsius:
+
+```
+    LAMBDA(temp, (5/9) * (temp-32))
+```
+
+This could be called in Excel with an argument:
+
+```
+    =LAMBDA(temp, (5/9) * (temp-32))(212)
+```
+
+Or assigned to a defined name and called as a user defined function:
+
+```
+    =ToCelsius(212)
+```
+
+A rust xlsxwriter example that replicates the described Excel functionality is
+shown below:
+
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_lambda.rs:7:}}
+```
+
+Note, that the formula name must have a "_xlfn." prefix and the parameters in
+the `LAMBDA()` function must have a "_xlpm."  prefix for compatibility with how
+the formulas are stored in Excel. These prefixes won't show up in the formula,
+as shown in the image.
+
+Image of the output file:
+
+![Image of output from app_lambda.rs](../../images/app_lambda.png)
+
+The `LET()` function is often used in conjunction with `LAMBDA()` to assign
+names to calculation results.

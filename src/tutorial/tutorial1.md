@@ -69,7 +69,7 @@ We then add a formula to calculate the total of the items in the second column:
 ```
 
 Finally, we save and close the Excel file via the [`workbook.save()`] method
-which take a path/filename string as an argument:
+which take a [`std::path`] Path or filename string as an argument:
 
 [`workbook.save()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save
 
@@ -80,11 +80,10 @@ which take a path/filename string as an argument:
 
 This will give us the spreadsheet shown in the image above.
 
-It is also possible to save to a [`std::path`] Path  or a byte vector using the
-[`workbook.save_to_path()`] and [`workbook.save_to_buffer()`] methods.
+It is also possible to save to a byte vector using
+[`workbook.save_to_buffer()`].
 
-We will look at file saving options in the section on TODO.
+We will look at file saving options in the section on [Creating and saving an xlsx file](../workbook/saving.md).
 
 [`std::path`]: https://doc.rust-lang.org/std/path/struct.Path.html
-[`workbook.save_to_path()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save_to_path
 [`workbook.save_to_buffer()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.save_to_buffer

@@ -31,6 +31,7 @@ The available control characters are:
 | `&S`                 |               | Strikethrough         |
 | `&X`                 |               | Superscript           |
 | `&Y`                 |               | Subscript             |
+| `&[Picture]` or `&G` | Images        | Picture/image         |
 | `&&`                 | Miscellaneous | Literal ampersand &   |
 
 Some of the placeholder variables have a long version like `&[Page]` and a short
@@ -82,6 +83,17 @@ Times and dates are in the user's default format:
 worksheet.set_header("&CUpdated at &[Time]");
 ```
 ![Image of worksheet header](../images/header06.png)
+
+To insert an image in use `&[Picture]` or `&G`. You will also need to use
+`set_header_image()` to set the corresponding image:
+
+```rust
+worksheet.set_header("&C&[Picture]");
+
+let image = Image::new("examples/watermark.png")?;
+worksheet.set_header_image(&image, XlsxImagePosition::Center);
+```
+![Image of worksheet header](../images/header10.png)
 
 To include a single literal ampersand `&` in a header or footer you
 should use a double ampersand `&&`:
