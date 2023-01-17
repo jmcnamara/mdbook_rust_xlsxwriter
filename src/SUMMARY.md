@@ -12,6 +12,7 @@
 
 - [The Workbook struct](workbook/intro.md)
     - [Creating and saving an xlsx file](workbook/saving.md)
+    - [Checksum of a saved file](workbook/checksum.md)
 
 - [The Worksheet struct](worksheet/intro.md)
     - [Creating worksheets](worksheet/create.md)
@@ -19,6 +20,7 @@
     - [Adding Headers and Footers](worksheet/headers.md)
     - [Autofitting column widths](worksheet/autofit.md)
     - [Working with worksheet tabs](worksheet/tabs.md)
+    - [Worksheet protection](worksheet/protection.md)
 
 - [The Format struct](format/intro.md)
     - [Creating and using a Format object](format/creating.md)
@@ -42,6 +44,7 @@
     - [Cell formatting](examples/formatting.md)
     - [Merging cells](examples/merge_range.md)
     - [Adding Autofilters](examples/autofilter.md)
+    - [Autofitting columns](examples/autofit.md)
     - [Rich strings](examples/rich_strings.md)
     - [Format colors](examples/colors.md)
     - [Hyperlinks](examples/hyperlinks.md)
@@ -51,9 +54,10 @@
     - [Dynamic array formulas](examples/dynamic_arrays.md)
     - [Excel LAMBDA() function](examples/lambda.md)
     - [Headers and Footers](examples/headers.md)
+    - [Setting document properties](examples/doc_properties.md)
     - [Adding a watermark](examples/watermark.md)
     - [Freeze Panes](examples/panes.md)
-    - [Autofitting columns](examples/autofit.md)
+    - [Worksheet protection](examples/protection.md)
 
 - [Performance](performance.md)
 - [Release Notes](changelog.md)
