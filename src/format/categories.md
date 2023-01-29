@@ -9,7 +9,7 @@ number with the Excel number format `"$#,##0.00"`.
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_currency1.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_currency1.rs:9:}}
 ```
 Which give the following output with the category displayed:
 
@@ -50,7 +50,7 @@ example and rerun it we will get a number format in the Currency category:
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_currency2.rs:17:19}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_currency2.rs:18:20}}
 ```
 
 That give us the following updated output. Note that the number category is

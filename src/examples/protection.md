@@ -11,5 +11,5 @@ protection.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_worksheet_protection.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_worksheet_protection.rs:8:}}
 ```

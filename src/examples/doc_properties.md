@@ -11,5 +11,5 @@ rust_xlsxwriter library.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_doc_properties.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_doc_properties.rs:8:}}
 ```

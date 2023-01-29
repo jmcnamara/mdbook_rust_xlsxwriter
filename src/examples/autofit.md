@@ -10,5 +10,5 @@ worksheet column widths based on the data in the column.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_autofit.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_autofit.rs:8:}}
 ```

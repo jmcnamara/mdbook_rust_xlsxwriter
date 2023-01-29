@@ -14,7 +14,7 @@ section below.
 If the prefix isn't included you will get an Excel function name error. For example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future1.rs:14}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future1.rs:15}}
 ```
 
 ![Image of output from doc_working_with_formulas_future1.rs](../../images/working_with_formulas3.png)
@@ -22,7 +22,7 @@ If the prefix isn't included you will get an Excel function name error. For exam
 If the `_xlfn.` prefix is included you will get the correct result:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future2.rs:14}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future2.rs:15}}
 ```
 
 
@@ -37,7 +37,7 @@ have `rust_xlsxwriter` automatically handle future functions for you:
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future3.rs:14:15}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future3.rs:15:16}}
 ```
 
 This will give the same correct result as the image above.

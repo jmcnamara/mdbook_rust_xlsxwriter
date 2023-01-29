@@ -3,7 +3,7 @@
 Let's extend the program a little bit more to add some dates to the data:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:12:17}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:13:18}}
 ```
 
 The corresponding spreadsheet will look like this:
@@ -16,7 +16,7 @@ made that column a little wider to accommodate the dates.
 To do this we can extend our program as follows:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:8:}}
 ```
 
 Dates and times in Excel are floating point numbers that have a number format
@@ -33,7 +33,7 @@ In the example above we create the NaiveDates from the date strings in our
 input data and then format it, in Excel, with a number format.
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:29}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:30}}
 ```
 
 The final addition to our program is the make the "Date" column wider for

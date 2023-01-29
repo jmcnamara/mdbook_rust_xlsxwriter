@@ -11,5 +11,5 @@ right-to-left, as required by some middle eastern versions of Excel.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_right_to_left.rs:8:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_right_to_left.rs:9:}}
 ```

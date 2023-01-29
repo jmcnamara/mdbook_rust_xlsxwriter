@@ -11,5 +11,5 @@ dates.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_demo.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_demo.rs:8:}}
 ```

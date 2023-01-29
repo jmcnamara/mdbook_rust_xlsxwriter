@@ -5,13 +5,13 @@ via the [`Workbook::new()`] method:
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:10}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:11}}
 ```
 
 Once you are finished writing data via a worksheet you can save it with the [`workbook.save()`] method:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:8:}}
 ```
 
 This will you a simple output file like the following.
@@ -23,7 +23,7 @@ save the xlsx file data to a `Vec<u8>` buffer via the
 [`workbook.save_to_buffer()`] method:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_save_to_buffer.rs:15}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_save_to_buffer.rs:16}}
 ```
 
 This can be useful if you intend to stream the data.

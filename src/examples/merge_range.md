@@ -13,7 +13,7 @@ types, such as number, as shown below.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_merge_range.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_merge_range.rs:8:}}
 ```
 
 

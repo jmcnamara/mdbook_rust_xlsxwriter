@@ -3,15 +3,16 @@
 Column widths in a `rust_xlsxwriter` worksheet can be adjusted automatically
 using the [`worksheet.set_autofit()`] method.
 
-There is no option available in the xlsx file format that `rust_xlsxwriter` can
-use to say "autofit columns on loading". Auto-fitting of columns is something
-that Excel does at runtime when it has access to all of the worksheet
-information as well as the Windows functions for calculating display areas based
-on fonts and formatting.
 
-As such the autofit widths that are calculated by [`worksheet.set_autofit()`]
-are based on simple heuristics. This isn't perfect but for most cases it should
-be sufficient and if not you can set your own widths, see below.
+There is no option in the xlsx file format that `rust_xlsxwriter` can be used to
+say "autofit columns on loading". Auto-fitting of columns is something that
+Excel does at runtime when it has access to all of the worksheet information as
+well as the Windows functions for calculating display areas based on fonts and
+formatting.
+
+As such [`worksheet.set_autofit()`] simulates this behavior by calculating string
+widths using metrics taken from Excel. This isn't perfect but for most cases it
+should be sufficient and if not you can set your own widths, see below.
 
 The `worksheet.set_autofit()` method ignores columns that already have an
 explicit column width set via [`worksheet.set_column_width()`] or

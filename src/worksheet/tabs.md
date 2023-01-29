@@ -16,7 +16,7 @@ emulate this functionality.
 The worksheet name can be set with [`worksheet.set_name()`]:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_name.rs:12:15}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_name.rs:13:16}}
 ```
 
 Which gives the following output:
@@ -50,7 +50,7 @@ the default is to have the first one active, like in Excel.
 Here is an example of making the second worksheet active:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_active.rs:16}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_active.rs:17}}
 ```
 
 Which gives the following output:
@@ -70,7 +70,7 @@ color. With `rust_xlsxwriter` this is achieved with
 [`worksheet.set_tab_color()`] and a [`XlsxColor`] color:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_tab_color.rs:11:21}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_tab_color.rs:12:22}}
 ```
 
 Which gives the following output:
@@ -85,7 +85,7 @@ intermediate data or calculations that end user doesn't need to see. With
 method:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_hidden.rs:11:15}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_hidden.rs:12:16}}
 ```
 
 Which gives the following output:
@@ -112,7 +112,7 @@ A worksheet that has been activated via the `worksheet.set_active()` method will
 also appear as selected.
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_selected.rs:12:17}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_selected.rs:14:18}}
 ```
 
 Which gives the following output. Note that Sheet 1 and Sheet2 are selected but

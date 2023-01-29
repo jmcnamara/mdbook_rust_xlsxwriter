@@ -17,5 +17,5 @@ And:
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:8:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:9:}}
 ```

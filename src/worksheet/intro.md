@@ -6,7 +6,7 @@ The [`Worksheet`] struct struct represents an Excel worksheet. It handles operat
 ![Image of output from app_demo.rs](../../images/demo.png)
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_demo.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_demo.rs:8:}}
 ```
 
 

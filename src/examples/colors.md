@@ -15,5 +15,5 @@ See also [Working with Colors](../colors/intro.md).
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_colors.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_colors.rs:8:}}
 ```

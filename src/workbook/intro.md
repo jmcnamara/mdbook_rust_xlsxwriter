@@ -5,8 +5,9 @@ starting point for creating a new Excel xlsx file.
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_new.rs:8:}}
 ```
+
 ![Image of output from doc_workbook_new.rs](../../images/workbook_new.png)
 
 For more details on the Workbook APIs see the docs.rs docs for [`Workbook`].

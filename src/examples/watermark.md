@@ -14,5 +14,5 @@ documentation].
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_watermark.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_watermark.rs:9:}}
 ```

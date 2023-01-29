@@ -32,7 +32,7 @@ the printed output to `n` pages wide but have the height be as long as
 necessary. To achieve this set the `height` to 0:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_print_fit_to_pages.rs:17:18}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_print_fit_to_pages.rs:18:19}}
 ```
 
 

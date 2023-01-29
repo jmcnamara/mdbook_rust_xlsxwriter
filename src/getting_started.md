@@ -33,13 +33,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rust_xlsxwriter = "0.23.0"
+rust_xlsxwriter = "0.24.0"
 ```
 
 Modify the main.rs file so it looks like this:
 
 ```rust
-{{#rustdoc_include ../../rust_xlsxwriter/examples/app_hello_world.rs:7:}}
+{{#rustdoc_include ../../rust_xlsxwriter/examples/app_hello_world.rs:8:}}
 ```
 
 The run the application as follows:

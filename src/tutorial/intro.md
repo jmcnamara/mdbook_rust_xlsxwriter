@@ -5,7 +5,7 @@ you can try something more ambitious such as creating a spreadsheet to summarize
 some monthly expenses like the following:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:12:17}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial3.rs:13:18}}
 ```
 
 And convert it to a worksheet like this:

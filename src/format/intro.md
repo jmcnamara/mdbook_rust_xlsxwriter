@@ -11,7 +11,7 @@ borders, alignment and number formatting.
 The output file above was created with the following code:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_intro.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_intro.rs:8:}}
 ```
 
 [`Format`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Format.html

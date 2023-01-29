@@ -3,7 +3,7 @@
 In general any Excel formula can be used directly in `rust_xlsxwriter`:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_intro.rs:11:15}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_intro.rs:13:16}}
 ```
 
 The formula will then be displayed as expected in Excel:

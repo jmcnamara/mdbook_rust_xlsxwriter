@@ -14,7 +14,7 @@ If required, it is also possible to specify the calculated result of the
 formula using the [`worksheet.set_formula_result()`] method:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_formula_result.rs:17:19}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_formula_result.rs:18:20}}
 ```
 
 One common spreadsheet application where the formula recalculation doesn't work
@@ -25,7 +25,7 @@ an empty string:
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_formula_result_default.rs:16}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_formula_result_default.rs:17}}
 ```
 
 [`worksheet.set_formula_result()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_formula_result

@@ -10,7 +10,7 @@ together, for example:
 [`Format::new()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Format.html#method.new
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_create.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_create.rs:8:}}
 ```
 
 Output:
@@ -20,7 +20,7 @@ Output:
 Formats can be cloned in the usual way:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_clone.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_format_clone.rs:8:}}
 ```
 
 Output:

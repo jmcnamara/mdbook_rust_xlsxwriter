@@ -2,7 +2,7 @@
 
 Format property colors are specified by using the ¦
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_enum_xlsxcolor.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_enum_xlsxcolor.rs:8:}}
 ```
 
 Output:

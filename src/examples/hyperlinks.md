@@ -13,5 +13,5 @@ the workbook.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_hyperlinks.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_hyperlinks.rs:8:}}
 ```

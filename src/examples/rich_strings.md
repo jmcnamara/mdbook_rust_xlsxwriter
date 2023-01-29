@@ -9,5 +9,5 @@ An example of writing "rich" multi-format strings to worksheet cells.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_rich_strings.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_rich_strings.rs:8:}}
 ```

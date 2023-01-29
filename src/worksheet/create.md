@@ -29,14 +29,14 @@ prior to calling this method.
 For example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheet_from_index.rs:11:26}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheet_from_index.rs:12:27}}
 ```
 
 You can also use [`workbook.worksheet_from_name()`] to do something similar
 using the worksheet names:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheet_from_name.rs:11:28}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheet_from_name.rs:12:29}}
 ```
 
 Additionally can use [`workbook.worksheets_mut()`] to get a reference to the the
@@ -44,13 +44,13 @@ vector that holds the worksheets. This can be used, for instance, to iterate
 over all the worksheets in a workbook:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheets_mut.rs:12:21}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheets_mut.rs:13:22}}
 ```
 
 If you are careful you can use standard [slice] operations.
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheets_mut.rs:24}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_worksheets_mut.rs:25}}
 ```
 
 Combining the two previous examples would give an output file like the
@@ -73,7 +73,7 @@ them to the Workbook when you are finished via the [`workbook.push_worksheet()`]
 method:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_new.rs:10:27}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_new.rs:11:28}}
 ```
 
 ## Using `add_worksheet()` versus  `Worksheet::new()`

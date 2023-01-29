@@ -9,7 +9,7 @@ comma (not semi-colon).
 Some examples of how formulas should and shouldn't be written are shown below:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_syntax.rs:12:19}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_syntax.rs:13:20}}
 ```
 If you have a non-English version of Excel you can use the following
 multi-lingual [Formula Translator](http://en.excel-translator.de/language/) to

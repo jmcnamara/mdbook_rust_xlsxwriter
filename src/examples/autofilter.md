@@ -16,5 +16,5 @@ upcoming version.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_autofilter.rs:14:33}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_autofilter.rs:15:34}}
 ```

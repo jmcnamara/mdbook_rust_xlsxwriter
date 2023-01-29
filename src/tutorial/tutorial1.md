@@ -4,7 +4,7 @@ To add some sample expense data to a worksheet we could start with a simple
 program like the following:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:8:}}
 ```
 
 If we run this program we should get a spreadsheet that looks like this:
@@ -22,7 +22,7 @@ The first step is to create a new workbook object using the
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:14}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:15}}
 ```
 
 **Note**, `rust_xlsxwriter` can only create new files. It cannot read or modify
@@ -36,7 +36,7 @@ The workbook object is then used to add a new worksheet via the
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:17}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:18}}
 ```
 The worksheet will have a standard Excel name, in this case "Sheet1". You can
 specify the worksheet name using the [`worksheet.set_name()`] method.
@@ -53,7 +53,7 @@ We then iterate over the data and use the [`worksheet.write_string_only()`] and
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:21:25}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:22:26}}
 ```
 
 The `_only` part of the method names refers to the fact that the data type is
@@ -65,7 +65,7 @@ the first cell in a worksheet, `A1`, is `(0, 0)`.
 We then add a formula to calculate the total of the items in the second column:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:29}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:30}}
 ```
 
 Finally, we save and close the Excel file via the [`workbook.save()`] method
@@ -75,7 +75,7 @@ which take a [`std::path`] Path or filename string as an argument:
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:32}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:33}}
 ```
 
 This will give us the spreadsheet shown in the image above.

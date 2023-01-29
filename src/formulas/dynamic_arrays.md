@@ -26,7 +26,7 @@ on the results. For example, a function such as `FILTER()` returns an array of
 values that can vary in size depending on the the filter results:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:28}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:29}}
 ```
 
 This formula gives the results shown in the image below. The dynamic range
@@ -74,7 +74,7 @@ As a syntactic shortcut you can use the `worksheet.write_dynamic_formula()`
 function which only requires the start cell:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:28}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:29}}
 ```
 
 For a wider and more general introduction to dynamic arrays see the following:
@@ -161,7 +161,7 @@ to a spilled range. The example in the image above was generated using the
 following formula:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:204}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:205}}
 ```
 
 ## The Excel 365 LAMBDA() function
@@ -196,7 +196,7 @@ shown below:
 
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_lambda.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_lambda.rs:8:}}
 ```
 
 Note, that the formula name must have a "_xlfn." prefix and the parameters in

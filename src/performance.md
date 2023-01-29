@@ -43,7 +43,7 @@ The programs used to generate these results are shown below.
 ## Rust
 
 ```rust
-{{#rustdoc_include ../../rust_xlsxwriter/examples/app_perf_test.rs:7:}}
+{{#rustdoc_include ../../rust_xlsxwriter/examples/app_perf_test.rs:8:}}
 ```
 
 ## C

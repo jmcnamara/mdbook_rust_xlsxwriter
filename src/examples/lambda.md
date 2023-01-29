@@ -12,5 +12,5 @@ See also [The Excel 365 LAMBDA() function](../formulas/dynamic_arrays.md#the-exc
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_lambda.rs:7:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_lambda.rs:8:}}
 ```

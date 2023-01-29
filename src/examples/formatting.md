@@ -11,5 +11,5 @@ sections of the Excel "Format Cells" dialog.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_formatting.rs:8:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_formatting.rs:9:}}
 ```
