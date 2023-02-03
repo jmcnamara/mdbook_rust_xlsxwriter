@@ -38,6 +38,8 @@
     - [Formulas added in Excel 2010 and later](formulas/future_functions.md)
     - [Dealing with formula errors](formulas/errors.md)
 
+- [Working with Autofilters](autofilters/autofilters.md)
+
 - [Cookbook Examples](examples/intro.md)
     - [Hello World](examples/hello_world.md)
     - [Feature demo](examples/demo.md)
