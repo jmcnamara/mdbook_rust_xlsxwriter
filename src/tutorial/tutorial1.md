@@ -44,20 +44,17 @@ specify the worksheet name using the [`worksheet.set_name()`] method.
 [`worksheet.set_name()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_name
 
 
-We then iterate over the data and use the [`worksheet.write_string_only()`] and
-[`worksheet.write_number_only()`] methods to write each row of our data:
+We then iterate over the data and use the [`worksheet.write_string()`] and
+[`worksheet.write_number()`] methods to write each row of our data:
 
-[`worksheet.write_string_only()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_string_only
-[`worksheet.write_number_only()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_number_only
+[`worksheet.write_string()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_string
+[`worksheet.write_number()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_number
 
 
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial1.rs:22:26}}
 ```
-
-The `_only` part of the method names refers to the fact that the data type is
-written without any formatting. We will see how to add formatting shortly.
 
 Throughout rust_xlsxwriter rows and columns are zero indexed. So, for example,
 the first cell in a worksheet, `A1`, is `(0, 0)`.

@@ -14,5 +14,3 @@ However, there are a few potential issues and differences that the user of
 `rust_xlsxwriter` should be aware of. These are explained in the following
 sections.
 
-
-[`worksheet.write_formula_only()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_formula_only

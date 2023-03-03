@@ -6,7 +6,7 @@ src = "src"
 title = "Working with the rust_xlsxwriter library"
 
 [output.html]
-default-theme = "rust"
+default-theme = "light"
 
 [output.html.playground]
 runnable = false

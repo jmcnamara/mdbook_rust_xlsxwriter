@@ -63,7 +63,7 @@ Almost all the options are protected by default apart from "Select locked cells"
 and "Select unlocked cells".
 
 If you wish to turn on or off any of these options you can use the
-[`ProtectWorksheetOptions`] struct and the [`worksheet.protect_with_options()`]
+[`ProtectionOptions`] struct and the [`worksheet.protect_with_options()`]
 method. For example:
 
 
@@ -109,7 +109,7 @@ The alert looks like this:
 
 [msoffice-crypt]: https://github.com/herumi/msoffice
 [`worksheet.protect()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.protect
-[`ProtectWorksheetOptions`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.ProtectWorksheetOptions.html
+[`ProtectionOptions`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.ProtectionOptions.html
 [`worksheet.protect_with_options()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.protect_with_options
 [`workbook.read_only_recommended()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.read_only_recommended
 [`worksheet.protect_with_password()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.protect_with_password

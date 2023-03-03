@@ -56,10 +56,11 @@ function to get a static/CSE range and
 [`worksheet.write_dynamic_formula()`] to get a dynamic range.
 
 [`worksheet.write_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_array_formula
-[`worksheet.write_dynamic_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_dynamic_array_formula
 [`worksheet.write_dynamic_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_dynamic_formula
-[Dynamic array formulas vs. legacy CSE array formulas]: https://support.microsoft.com/en-us/office/dynamic-array-formulas-vs-legacy-cse-array-formulas-ca421f1b-fbb2-4c99-9924-df571bd4f1b4
+[`worksheet.write_dynamic_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_dynamic_array_formula
+
 [Dynamic array formulas in Excel]: https://exceljet.net/dynamic-array-formulas-in-excel
+[Dynamic array formulas vs. legacy CSE array formulas]: https://support.microsoft.com/en-us/office/dynamic-array-formulas-vs-legacy-cse-array-formulas-ca421f1b-fbb2-4c99-9924-df571bd4f1b4
 
 The `worksheet.write_dynamic_array_formula()` function takes a `(first_row,
 first_col, last_row, last_col)` cell range to define the area that the formula
@@ -68,7 +69,7 @@ advance in which case you can specify the range with the same start and end
 cell. The following range is "F2:F2":
 
 ```rust
-    worksheet1.write_dynamic_array_formula_only(1, 5, 1, 5, "=FILTER(A1:D17,C1:C17=K2)")?;
+    worksheet1.write_dynamic_array_formula(1, 5, 1, 5, "=FILTER(A1:D17,C1:C17=K2)")?;
 ```
 As a syntactic shortcut you can use the `worksheet.write_dynamic_formula()`
 function which only requires the start cell:

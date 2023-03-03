@@ -36,8 +36,9 @@ amount of the its functionality to add some simple formatting:
 ```
 
 We can use these formats in worksheet methods that support formatting such as
-the [`worksheet.write_string()`] and [`worksheet.write_number()`] methods which
-can write data and formatting together.
+the [`worksheet.write_string_with_format()`] and
+[`worksheet.write_number_with_format()`] methods which can write data and
+formatting together.
 
-[`worksheet.write_string()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_string
-[`worksheet.write_number()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_number
+[`worksheet.write_string_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_string_with_format
+[`worksheet.write_number_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_number_with_format

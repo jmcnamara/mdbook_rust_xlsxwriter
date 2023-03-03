@@ -69,7 +69,7 @@ $ sum properties.xlsx
 8914 6 properties.xlsx # Same as previous
 ```
 
-For more details see [`Properties`] and [`workbook::set_properties()`].
+For more details see [`DocProperties`] and [`workbook::set_properties()`].
 
-[`Properties`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Properties.html
+[`DocProperties`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.DocProperties.html
 [`workbook::set_properties()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.set_properties
