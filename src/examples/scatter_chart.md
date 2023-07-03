@@ -1,0 +1,28 @@
+# Chart: Scatter: Excel Scatter chart example
+
+Example of creating Excel Scatter charts.
+
+
+**Image of the output file:**
+
+Chart 1 in the following example is a default scatter chart:
+![Image of output chart example](../../images/chart_scatter1.png)
+
+Chart 2 is a scatter chart with straight lines and markers:
+![Image of output chart example](../../images/chart_scatter2.png)
+
+Chart 3 is a scatter chart with straight lines and no markers:
+![Image of output chart example](../../images/chart_scatter3.png)
+
+Chart 4 is a scatter chart with smooth lines and markers:
+![Image of output chart example](../../images/chart_scatter4.png)
+
+Chart 5 is a scatter chart with smooth lines and no markers:
+![Image of output chart example](../../images/chart_scatter5.png)
+
+
+**Code to generate the output file:**
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_chart_scatter.rs:6:}}
+```

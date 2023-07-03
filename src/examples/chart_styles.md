@@ -1,0 +1,15 @@
+# Chart: Styles: Example of setting default chart styles
+
+An example showing all 48 default chart styles available in Excel 2007 using the
+chart `set_style()` method.
+
+**Image of the output file:**
+
+![Image of output chart example](../../images/chart_styles.png)
+
+
+**Code to generate the output file:**
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_chart_styles.rs:9:}}
+```

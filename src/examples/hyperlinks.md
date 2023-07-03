@@ -1,7 +1,7 @@
-# Hyperlinks
+# Hyperlinks: Add hyperlinks to a worksheet
 
 This is an example of a program to create demonstrate creating links in a
-worksheet using the rust_xlsxwriter library.
+worksheet using the `rust_xlsxwriter`library.
 
 The links can be to external urls, to external files or internally to cells in
 the workbook.

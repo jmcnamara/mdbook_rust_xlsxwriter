@@ -1,6 +1,6 @@
-# Excel LAMBDA() function
+# Excel LAMBDA() function: Example of using the Excel 365 LAMBDA() function
 
-An example of using the new Excel `LAMBDA()` function with the rust_xlsxwriter
+An example of using the new Excel `LAMBDA()` function with the`rust_xlsxwriter`
 library.
 
 See also [The Excel 365 LAMBDA() function](../formulas/dynamic_arrays.md#the-excel-365-lambda-function).

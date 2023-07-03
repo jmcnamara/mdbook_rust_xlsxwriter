@@ -1,4 +1,4 @@
-# Using defined names
+# Defined names: using user defined variable names in worksheets
 
 Example of how to create defined names using the `rust_xlsxwriter` library.
 

@@ -1,7 +1,7 @@
-# Format colors
+# Format colors: Create a palette of the available colors
 
 This example create a sample palette of the the defined colors, some user
-defined RGB colors, and the theme palette color available in the rust_xlsxwriter
+defined RGB colors, and the theme palette color available in the`rust_xlsxwriter`
 library.
 
 See also [Working with Colors](../colors/intro.md).

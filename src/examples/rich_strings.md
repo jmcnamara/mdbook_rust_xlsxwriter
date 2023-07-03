@@ -1,4 +1,4 @@
-# Rich strings
+# Rich strings: Add multi-font rich strings to a worksheet
 
 An example of writing "rich" multi-format strings to worksheet cells.
 

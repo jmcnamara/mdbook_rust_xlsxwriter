@@ -1,6 +1,6 @@
-# Right to left display
+# Right to left display: Set a worksheet into right to left display mode
 
-This is an example of using rust_xlsxwriter to create a workbook with the
+This is an example of using `rust_xlsxwriter`to create a workbook with the
 default worksheet and cell text direction changed from left-to-right to
 right-to-left, as required by some middle eastern versions of Excel.
 

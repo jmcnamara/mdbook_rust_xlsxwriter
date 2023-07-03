@@ -1,4 +1,4 @@
-# Freeze Panes
+# Freeze Panes: Example of setting freeze panes in worksheets
 
 An example of setting some "freeze" panes in worksheets to split the worksheet
 into scrolling and non-scrolling areas. This is generally used to have one or

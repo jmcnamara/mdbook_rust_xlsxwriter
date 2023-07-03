@@ -1,4 +1,4 @@
-# Autofitting columns
+# Autofitting Columns: Example of autofitting column widths
 
 This is an example of using the simulated autofit option to automatically set
 worksheet column widths based on the data in the column.

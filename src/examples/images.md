@@ -1,4 +1,4 @@
-# Inserting images
+# Insert images: Add images to a worksheet
 
 This is an example of a program to insert images into a worksheet.
 
@@ -9,5 +9,5 @@ This is an example of a program to insert images into a worksheet.
 **Code to generate the output file:**
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_images.rs:9:}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_images.rs:7:}}
 ```

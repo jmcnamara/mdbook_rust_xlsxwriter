@@ -67,7 +67,7 @@ worksheet) in a group of worksheets.
 
 Another way of highlighting one or more worksheets in Excel is to set the tab
 color. With `rust_xlsxwriter` this is achieved with
-[`worksheet.set_tab_color()`] and a [`XlsxColor`] color:
+[`worksheet.set_tab_color()`] and a [`Color`] color:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_tab_color.rs:12:22}}
@@ -128,7 +128,7 @@ Sheet3 isn't:
 
 
 
-[`XlsxColor`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/enum.XlsxColor.html
+[`Color`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/enum.Color.html
 [`worksheet.set_name()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_name
 [`worksheet.set_active()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_active
 [`worksheet.set_hidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_hidden

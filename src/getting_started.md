@@ -9,8 +9,9 @@ will start with a small sample application.
 Create a new rust command-line application as follows:
 
 ```bash
-cargo new hello-xlsx
+$ cargo new hello-xlsx
 ```
+
 
 This will create a directory like the following:
 
@@ -21,32 +22,23 @@ hello-xlsx/
     └── main.rs
 ```
 
-Edit the Cargo.toml file and add the following `rust_xlsxwriter` dependency
-so the file looks like below. Note, `rust_xlsxwriter` adds new features
-regularly do make sure you use the latest version.
+Change to the new `hello-xlsx` directory and add the `rust_xlsxwriter` dependency:
 
-
-```toml
-[package]
-name = "hello-xlsx"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-rust_xlsxwriter = "0.26.0"
+```bash
+$ cd hello-xlsx
+$ cargo add rust_xlsxwriter
 ```
 
-
-Modify the main.rs file so it looks like this:
+Modify the `src/main.rs` file so it looks like this:
 
 ```rust
 {{#rustdoc_include ../../rust_xlsxwriter/examples/app_hello_world.rs:8:}}
 ```
 
-The run the application as follows:
+Then run the application as follows:
 
 ```bash
-cargo run
+$   cargo run
 ```
 
 This will create an output file called `hello.xlsx` which should look

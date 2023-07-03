@@ -1,7 +1,7 @@
-# Setting document properties
+# Setting document properties Set the metadata properties for a workbook
 
 An example of setting workbook document properties for a file created using the
-rust_xlsxwriter library.
+`rust_xlsxwriter`library.
 
 **Image of the output file:**
 

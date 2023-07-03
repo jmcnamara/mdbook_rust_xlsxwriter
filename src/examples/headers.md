@@ -1,4 +1,4 @@
-# Headers and Footers
+# Headers and Footers: Shows how to set headers and footers
 
 
 This program shows several examples of how to set up worksheet headers and footers.

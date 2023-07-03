@@ -1,0 +1,23 @@
+# Chart: Area: Excel Area chart example
+
+Example of creating Excel Area charts.
+
+
+**Image of the output file:**
+
+Chart 1 in the following example is a default area chart:
+![Image of output chart example](../../images/chart_area1.png)
+
+Chart 2 is a stacked area chart:
+![Image of output chart example](../../images/chart_area2.png)
+
+
+Chart 3 is a percentage stacked area chart:
+![Image of output chart example](../../images/chart_area3.png)
+
+
+**Code to generate the output file:**
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_chart_area.rs:6:}}
+```

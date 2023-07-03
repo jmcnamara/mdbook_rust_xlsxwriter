@@ -1,4 +1,4 @@
-# Adding a watermark
+# Adding a watermark: Adding a watermark to a worksheet by adding an image to the header
 
 
 An example of adding a worksheet watermark image. This is based on the method of

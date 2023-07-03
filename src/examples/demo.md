@@ -1,6 +1,6 @@
-# Feature demo
+# Feature demo: Demonstrates more features of the library
 
-A simple getting started example of some of the features of the rust_xlsxwriter
+A simple getting started example of some of the features of the`rust_xlsxwriter`
 library. It shows some examples of writing different data types, including
 dates.
 

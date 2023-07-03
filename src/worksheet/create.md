@@ -87,9 +87,14 @@ Excel xlsx file format has very tight coupling between it's sub-components and
 it is possible that some future rust_xlsxwriter functionality will require
 Worksheets and other Workbook objects to be `registered` with a parent Workbook
 in order for them to work. However, there aren't currently any features like
-that, and the author will seek to avoid them as much as possible. So if the
-`Worksheet::new()` and `workbook.push_worksheet()` methodology seems more
-natural to you then you should use it.
+that, and the author will seek to avoid them as much as possible.
+
+One common use case that works better with `Worksheet::new()` and
+`workbook.push_worksheet()` is creating worksheets to run in a parallelized
+mode.
+
+So if the `Worksheet::new()` and `workbook.push_worksheet()` methodology seems
+more natural to you then you should use it.
 
 [slice]: https://doc.rust-lang.org/1.64.0/std/primitive.slice.html
 [`Worksheet::new()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.new
