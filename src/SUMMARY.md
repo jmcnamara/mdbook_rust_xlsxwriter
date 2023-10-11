@@ -9,6 +9,8 @@
     - [Adding data to a worksheet](tutorial/tutorial1.md)
     - [Adding some formatting](tutorial/tutorial2.md)
     - [Adding dates and more formatting](tutorial/tutorial3.md)
+    - [Adding a chart](tutorial/tutorial4.md)
+    - [Making the code more programmatic](tutorial/tutorial5.md)
 
 - [The Workbook struct](workbook/intro.md)
     - [Creating and saving an xlsx file](workbook/saving.md)

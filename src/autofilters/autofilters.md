@@ -1,5 +1,4 @@
 # Working with Autofilters
-# Working with Autofilters
 
 An autofilter is a way of adding drop down lists to the headers of a 2D range of
 worksheet data. This allows users to filter the data based on simple criteria so

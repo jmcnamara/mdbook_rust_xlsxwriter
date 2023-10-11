@@ -1,11 +1,10 @@
 # Adding some formatting
 
-
-The previous program converted the required data into an Excel file but it
+The previous example converted the required data into an Excel file but it
 looked a little bare. In order to make the information clearer we can add some
 simple formatting, like this:
 
-![Image of first tutorial 2](../images/tutorial2.png)
+![Image of tutorial 2](../images/tutorial2.png)
 
 
 The differences here are that we have added "Item" and "Cost" column headers in
@@ -35,10 +34,12 @@ amount of the its functionality to add some simple formatting:
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:17:21}}
 ```
 
-We can use these formats in worksheet methods that support formatting such as
-the [`worksheet.write_string_with_format()`] and
-[`worksheet.write_number_with_format()`] methods which can write data and
-formatting together.
+We can use these formats with the [`worksheet.write_with_format()`] method which
+writes data and formatting together, like this examples from the code:
 
-[`worksheet.write_string_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_string_with_format
-[`worksheet.write_number_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_number_with_format
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:27}}
+```
+
+[`worksheet.write_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_with_format
+
