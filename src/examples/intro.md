@@ -9,6 +9,7 @@ the `rust_xlsxwriter`library.
 - [Merging cells](./merge_range.md): An example of merging cell ranges.
 - [Autofilters](./autofilter.md): Add an autofilter to a worksheet.
 - [Tables](./tables.md): Add worksheet tables to a worksheet.
+- [Conditional Formatting](./conditional_formats.md)
 - [Autofitting Columns](./autofit.md): Example of autofitting column widths.
 - [Extending generic write()](./generic_write.md): Example of extending the `write()` method to handle user data types.
 - [Rich strings](./rich_strings.md): Add multi-font "rich" strings to a worksheet.
@@ -23,8 +24,12 @@ the `rust_xlsxwriter`library.
 - [Chart: Scatter](./scatter_chart.md): Excel Scatter chart example.
 - [Chart: Radar](./radar_chart.md): Excel Radar chart example.
 - [Chart: Pie](./pie_chart.md): Excel Pie chart example.
+- [Chart: Stock](./stock_chart.md): Excel Stock chart example.
 - [Chart: Doughnut](./doughnut_chart.md): Excel Doughnut chart example.
 - [Chart: Pattern Fill](./chart_pattern.md): Example of a chart with Pattern Fill.
+- [Chart: Gradient Fill](./chart_gradient.md): Example of a chart with Gradient Fill.
+- [Chart: Data table](examples/chart_data_table.md)
+- [Chart: Data tools](examples/chart_data_tools.md)
 - [Insert images](./images.md): Add images to a worksheet.
 - [Insert images to fit](./insert_image_to_fit.md): Inserting images to fit cell
 - [Right to left display](./right_to_left.md): Sets a worksheet into right to left format.

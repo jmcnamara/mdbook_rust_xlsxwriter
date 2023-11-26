@@ -20,7 +20,7 @@ the table data can be added via standard [`worksheet.write()`]methods.
 
 ## Some examples:
 
-Example 1. Default table with no data.
+**Example 1.** Default table with no data.
 
 ![Image of table example](../../images/app_tables1.png)
 
@@ -31,7 +31,7 @@ Code to generate the above example:
 ```
 
 
-Example 2. Default table with data.
+**Example 2.** Default table with data.
 
 ![Image of table example](../../images/app_tables2.png)
 
@@ -42,7 +42,7 @@ Code to generate the above example:
 ```
 
 
-Example 3. Table without default autofilter.
+**Example 3.** Table without default autofilter.
 
 ![Image of table example](../../images/app_tables3.png)
 
@@ -53,7 +53,7 @@ Code to generate the above example:
 ```
 
 
-Example 4. Table without default header row.
+**Example 4.** Table without default header row.
 
 ![Image of table example](../../images/app_tables4.png)
 
@@ -64,7 +64,7 @@ Code to generate the above example:
 ```
 
 
-Example 5. Default table with "First Column" and "Last Column" options.
+**Example 5.** Default table with "First Column" and "Last Column" options.
 
 ![Image of table example](../../images/app_tables5.png)
 
@@ -75,7 +75,7 @@ Code to generate the above example:
 ```
 
 
-Example 6. Table with banded columns but without default banded rows.
+**Example 6.** Table with banded columns but without default banded rows.
 
 ![Image of table example](../../images/app_tables6.png)
 
@@ -86,7 +86,7 @@ Code to generate the above example:
 ```
 
 
-Example 7. Table with user defined column headers.
+**Example 7.** Table with user defined column headers.
 
 ![Image of table example](../../images/app_tables7.png)
 
@@ -97,7 +97,7 @@ Code to generate the above example:
 ```
 
 
-Example 8. Table with user defined column headers, and formulas.
+**Example 8.** Table with user defined column headers, and formulas.
 
 ![Image of table example](../../images/app_tables8.png)
 
@@ -108,7 +108,7 @@ Code to generate the above example:
 ```
 
 
-Example 9. Table with totals row (but no caption or totals).
+**Example 9.** Table with totals row (but no caption or totals).
 
 ![Image of table example](../../images/app_tables9.png)
 
@@ -119,7 +119,7 @@ Code to generate the above example:
 ```
 
 
-Example 10. Table with totals row with user captions and functions.
+**Example 10.** Table with totals row with user captions and functions.
 
 ![Image of table example](../../images/app_tables10.png)
 
@@ -130,7 +130,7 @@ Code to generate the above example:
 ```
 
 
-Example 11. Table with alternative Excel style.
+**Example 11.** Table with alternative Excel style.
 
 ![Image of table example](../../images/app_tables11.png)
 
@@ -141,7 +141,7 @@ Code to generate the above example:
 ```
 
 
-Example 12. Table with Excel style removed.
+**Example 12.** Table with Excel style removed.
 
 ![Image of table example](../../images/app_tables12.png)
 

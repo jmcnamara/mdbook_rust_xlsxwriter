@@ -1,0 +1,31 @@
+# Chart: Chart data tools
+
+A demo of the various Excel chart data tools that are available via the
+`rust_xlsxwriter` library.
+
+
+**Image of the output file:**
+
+Chart 1 in the following code is a trendline chart:
+![Image of output chart example](../../images/chart_data_tools1.png)
+
+Chart 2 in the following code is an example of a chart with data labels and markers:
+![Image of output chart example](../../images/chart_data_tools2.png)
+
+Chart 3 in the following code is an example of a chart with error bars:
+![Image of output chart example](../../images/chart_data_tools3.png)
+
+Chart 4 in the following code is an example of a chart with up-down bars:
+![Image of output chart example](../../images/chart_data_tools4.png)
+
+Chart 5 in the following code is an example of a chart with high-low lines:
+![Image of output chart example](../../images/chart_data_tools5.png)
+
+Chart 6 in the following code is an example of a chart with drop lines:
+![Image of output chart example](../../images/chart_data_tools6.png)
+
+**Code to generate the output file:**
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_chart_data_tools.rs:8:}}
+```

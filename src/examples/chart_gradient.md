@@ -1,0 +1,19 @@
+# Chart: Gradient Fill: Example of a chart with Gradient Fill
+
+A example of creating column charts with fill gradients using the
+[`ChartFormat`] and [`ChartGradientFill`] structs.
+
+
+**Image of the output file:**
+
+![Image of output chart example](../../images/chart_gradient_fill.png)
+
+
+**Code to generate the output file:**
+
+```rust
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_chart_gradient.rs:8:}}
+```
+
+[`ChartFormat`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.ChartFormat.html
+[`ChartGradientFill`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.ChartGradientFill.html

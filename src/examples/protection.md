@@ -1,4 +1,4 @@
-# Setting document properties Set the metadata properties for a workbook
+# Setting cell protection in a worksheet
 
 Example of cell locking and formula hiding in an Excel worksheet using worksheet
 protection.

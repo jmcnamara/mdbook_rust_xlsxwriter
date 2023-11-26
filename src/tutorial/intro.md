@@ -13,7 +13,6 @@ And convert it to a worksheet like this:
 
 ![Image of first tutorial 3](../images/tutorial5.png)
 
-
 ## Reading ahead
 
 The tutorial presents a simple direct approach so as not to confuse the reader
