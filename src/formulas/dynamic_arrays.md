@@ -165,7 +165,7 @@ following formula:
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_dynamic_arrays.rs:205}}
 ```
 
-## The Excel 365 LAMBDA() function
+## The Excel 365 `LAMBDA()` function
 
 Recent versions of Excel 365 have introduced a powerful new function/feature
 called `LAMBDA()`. This is similar to closure expressions in Rust or [lambda

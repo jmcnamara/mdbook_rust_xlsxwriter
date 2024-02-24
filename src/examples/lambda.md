@@ -1,4 +1,4 @@
-# Excel LAMBDA() function: Example of using the Excel 365 LAMBDA() function
+# Excel `LAMBDA()` function: Example of using the Excel 365 `LAMBDA()` function
 
 An example of using the new Excel `LAMBDA()` function with the`rust_xlsxwriter`
 library.

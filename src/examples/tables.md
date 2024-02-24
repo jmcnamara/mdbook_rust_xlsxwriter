@@ -49,7 +49,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:80:102}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:80:101}}
 ```
 
 
@@ -60,7 +60,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:108:130}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:107:128}}
 ```
 
 
@@ -71,7 +71,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:136:159}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:134:155}}
 ```
 
 
@@ -82,7 +82,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:165:188}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:161:182}}
 ```
 
 
@@ -93,7 +93,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:194:223}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:188:217}}
 ```
 
 
@@ -104,7 +104,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:229:261}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:223:255}}
 ```
 
 
@@ -115,7 +115,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:267:300}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:261:293}}
 ```
 
 
@@ -126,7 +126,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:306:350}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:299:342}}
 ```
 
 
@@ -137,7 +137,7 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:356:401}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:348:394}}
 ```
 
 
@@ -148,5 +148,5 @@ Code to generate the above example:
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:407:452}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tables.rs:400:449}}
 ```

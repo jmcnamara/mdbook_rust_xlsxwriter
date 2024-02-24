@@ -1,4 +1,4 @@
-# Extending generic write() to handle user data types
+# Extending generic `write()` to handle user data types
 
 Example of how to extend the the `rust_xlsxwriter`[`worksheet.write()`] method using the
 [`IntoExcelData`] trait to handle arbitrary user data that can be mapped to one
