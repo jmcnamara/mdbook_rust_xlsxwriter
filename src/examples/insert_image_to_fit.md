@@ -1,8 +1,11 @@
-# Insert images: Inserting images to fit cell
+# Insert images: Inserting images to fit a cell
 
 An example of inserting images into a worksheet using `rust_xlsxwriter`so that
 they are scaled to a cell. This approach can be useful if you are building up a
 spreadsheet of products with a column of images for each product.
+
+See the [Embedding images in cells](./embedded_images.md) example that
+shows a better approach for newer versions of Excel.
 
 **Image of the output file:**
 

@@ -1,7 +1,7 @@
 # Hello World: Simple getting started example
 
 Program to create a simple Hello World style Excel spreadsheet using the
-`rust_xlsxwriter`library.
+`rust_xlsxwriter` library.
 
 **Image of the output file:**
 

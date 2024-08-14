@@ -34,12 +34,12 @@ amount of the its functionality to add some simple formatting:
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:17:21}}
 ```
 
-We can use these formats with the [`worksheet.write_with_format()`] method which
+We can use these formats with the [`Worksheet::write_with_format()`] method which
 writes data and formatting together, like this examples from the code:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_tutorial2.rs:27}}
 ```
 
-[`worksheet.write_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_with_format
+[`Worksheet::write_with_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_with_format
 

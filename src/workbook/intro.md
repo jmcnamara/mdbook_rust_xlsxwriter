@@ -12,4 +12,4 @@ starting point for creating a new Excel xlsx file.
 
 For more details on the Workbook APIs see the docs.rs docs for [`Workbook`].
 
-[`Workbook`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html
+[`Workbook`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/workbook/struct.Workbook.html

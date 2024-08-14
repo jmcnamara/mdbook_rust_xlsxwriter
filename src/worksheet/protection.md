@@ -6,7 +6,7 @@ user to update but have other instruction or calculation cells that you don't
 want modified.
 
 In Excel you do this by turning on the "*Review -> Sheet Protect*" option and in
-`rust_xlsxwriter` you can use the [`worksheet.protect()`] method:
+`rust_xlsxwriter` you can use the [`Worksheet::protect()`] method:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_worksheet_protection.rs:22}}
@@ -37,7 +37,7 @@ And this is the alert you get if you try to edit a locked cell.
 ## Setting a protection password
 
 You can deter a user from turning off worksheet protection by adding a worksheet
-level password using the [`worksheet.protect_with_password()`] method:
+level password using the [`Worksheet::protect_with_password()`] method:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_protect_with_password.rs:16:17}}
@@ -63,7 +63,7 @@ Almost all the options are protected by default apart from "Select locked cells"
 and "Select unlocked cells".
 
 If you wish to turn on or off any of these options you can use the
-[`ProtectionOptions`] struct and the [`worksheet.protect_with_options()`]
+[`ProtectionOptions`] struct and the [`Worksheet::protect_with_options()`]
 method. For example:
 
 
@@ -92,7 +92,7 @@ msoffice-crypt.exe -e -p password clear.xlsx encrypted.xlsx
 ## Read-only workbook
 
 If you wish to have an Excel workbook open as read-only by default then you can
-use the [`workbook.read_only_recommended()`] method:
+use the [`Workbook::read_only_recommended()`] method:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_workbook_read_only_recommended.rs:15}}
@@ -108,11 +108,11 @@ The alert looks like this:
 
 
 [msoffice-crypt]: https://github.com/herumi/msoffice
-[`worksheet.protect()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.protect
+[`Worksheet::protect()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.protect
 [`ProtectionOptions`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.ProtectionOptions.html
-[`worksheet.protect_with_options()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.protect_with_options
-[`workbook.read_only_recommended()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Workbook.html#method.read_only_recommended
-[`worksheet.protect_with_password()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.protect_with_password
+[`Worksheet::protect_with_options()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.protect_with_options
+[`Workbook::read_only_recommended()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/workbook/struct.Workbook.html#method.read_only_recommended
+[`Worksheet::protect_with_password()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.protect_with_password
 
 
 

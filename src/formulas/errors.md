@@ -21,12 +21,12 @@ steps:
 
 5. If the function loads in Excel but appears with one or more `@` symbols added
    then it is probably an array function and should be written using
-   [`worksheet.write_array_formula()`] or
-   [`worksheet.write_dynamic_array_formula()`] (see also [Dynamic Array
+   [`Worksheet::write_array_formula()`] or
+   [`Worksheet::write_dynamic_array_formula()`] (see also [Dynamic Array
    support](dynamic_arrays.md)).
 
-[`worksheet.write_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_array_formula
-[`worksheet.write_dynamic_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_dynamic_array_formula
+[`Worksheet::write_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_array_formula
+[`Worksheet::write_dynamic_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_dynamic_array_formula
 
 Finally if you have completed all the previous steps and still get a `#NAME?`
 error you can examine a valid Excel file to see what the correct syntax should

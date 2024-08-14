@@ -45,7 +45,7 @@ correctly in Excel:
 ```
 
 Another addition to our program is the make the "Date" column wider for clarity
-using the [`worksheet.set_column_width()`] method.
+using the [`Worksheet::set_column_width()`] method.
 
-[`worksheet.set_column_width()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_column_width
+[`Worksheet::set_column_width()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_column_width
 

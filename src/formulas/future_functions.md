@@ -5,11 +5,11 @@ original file specification. These functions are referred to by Microsoft as
 "Future Functions". Examples of these functions are `ACOT`, `CHISQ.DIST.RT` ,
 `CONFIDENCE.NORM`, `STDEV.P`, `STDEV.S` and `WORKDAY.INTL`.
 
-When written using [`worksheet.write_formula()`] these functions need to be
+When written using [`Worksheet::write_formula()`] these functions need to be
 fully qualified with a prefix such as `_xlfn.`, as shown the table in the next
 section below.
 
-[`worksheet.write_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_formula
+[`Worksheet::write_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_formula
 
 If the prefix isn't included you will get an Excel function name error. For example:
 
@@ -30,10 +30,10 @@ If the `_xlfn.` prefix is included you will get the correct result:
 
 **Note**: The function is displayed by Excel without the prefix.
 
-Alternatively you can use the [`worksheet.use_future_functions()`] function to
+Alternatively you can use the [`Worksheet::use_future_functions()`] function to
 have `rust_xlsxwriter` automatically handle future functions for you:
 
-[`worksheet.use_future_functions()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.use_future_functions
+[`Worksheet::use_future_functions()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.use_future_functions
 
 
 ```rust

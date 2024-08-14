@@ -1,4 +1,4 @@
-# Adding worksheet tables
+# Tables: Adding worksheet tables
 
 Tables in Excel are a way of grouping a range of cells into a single entity
 that has common formatting or that can be referenced from formulas. Tables
@@ -10,13 +10,13 @@ shown in the ribbon bar.
 
 ![Image of Excel Table options](../../images/table_intro.png)
 
-A table is added to a worksheet via the [`worksheet.add_table()`]method. The
+A table is added to a worksheet via the [`Worksheet::add_table()`]method. The
 headers and total row of a table should be configured via a [`Table`] struct but
-the table data can be added via standard [`worksheet.write()`]methods.
+the table data can be added via standard [`Worksheet::write()`]methods.
 
 [`Table`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Table.html
-[`worksheet.write()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write
-[`worksheet.add_table()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.add_table
+[`Worksheet::write()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write
+[`Worksheet::add_table()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.add_table
 
 ## Some examples:
 

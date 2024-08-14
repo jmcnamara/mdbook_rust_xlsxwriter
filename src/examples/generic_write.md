@@ -1,6 +1,6 @@
-# Extending generic `write()` to handle user data types
+# Traits: Extending generic `write()` to handle user data types
 
-Example of how to extend the the `rust_xlsxwriter`[`worksheet.write()`] method using the
+Example of how to extend the the `rust_xlsxwriter`[`Worksheet::write()`] method using the
 [`IntoExcelData`] trait to handle arbitrary user data that can be mapped to one
 of the main Excel data types.
 
@@ -13,7 +13,7 @@ this is for demonstration purposes only. The [`ExcelDateTime`] struct in
 [Unix Time]: https://en.wikipedia.org/wiki/Unix_time
 [`IntoExcelData`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/trait.IntoExcelData.html
 [`ExcelDateTime`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.ExcelDateTime.html
-[`worksheet.write()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write
+[`Worksheet::write()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write
 
 **Image of the output file:**
 

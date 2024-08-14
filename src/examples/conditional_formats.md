@@ -1,4 +1,4 @@
-# Adding Conditional Formatting
+# Conditional Formatting: Adding conditional formatting to worksheets
 
 Conditional formatting is a feature of Excel which allows you to apply a format
 to a cell or a range of cells based on user defined rules. For example you might

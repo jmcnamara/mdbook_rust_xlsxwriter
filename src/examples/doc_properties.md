@@ -1,10 +1,9 @@
-# Setting document properties Set the metadata properties for a workbook
+# Document Properties: Setting document metadata properties for a workbook
 
 An example of setting workbook document properties for a file created using the
-`rust_xlsxwriter`library.
+`rust_xlsxwriter` library.
 
 **Image of the output file:**
-
 
 ![Image of output from app_doc_properties.rs](../../images/app_doc_properties.png)
 

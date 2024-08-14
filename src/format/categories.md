@@ -1,11 +1,11 @@
 # Number Format Categories
 
 The [`set_num_format()`] method is used to set the number format for numbers
-used with [`worksheet.write_number()`]. For example the following formats a
+used with [`Worksheet::write_number()`]. For example the following formats a
 number with the Excel number format `"$#,##0.00"`.
 
 [`set_num_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Format.html#method.set_num_format
-[`worksheet.write_number()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_number
+[`Worksheet::write_number()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_number
 
 
 ```rust

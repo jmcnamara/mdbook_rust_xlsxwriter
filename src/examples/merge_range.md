@@ -1,9 +1,9 @@
 # Merging cells: An example of merging cell ranges
 
 This is an example of creating merged cells ranges in Excel using
-[`worksheet.merge_range()`].
+[`Worksheet::merge_range()`].
 
-[`worksheet.merge_range()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.merge_range
+[`Worksheet::merge_range()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.merge_range
 
 The `merge_range()` method only handles strings but it can be used to merge
 other data types, such as number, as shown below.

@@ -2,10 +2,10 @@
 
 
 Headers and footers can be added to worksheets using the
-[`worksheet.set_header()`] and [`worksheet.set_footer()`] methods.
+[`Worksheet::set_header()`] and [`Worksheet::set_footer()`] methods.
 
-[`worksheet.set_header()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_header
-[`worksheet.set_footer()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_footer
+[`Worksheet::set_header()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_header
+[`Worksheet::set_footer()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_footer
 
 Headers and footers are generated using a string which is a combination of plain
 text and optional control characters.

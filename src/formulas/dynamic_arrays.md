@@ -50,19 +50,19 @@ The difference between the two types of array functions is explained in the
 Microsoft documentation on [Dynamic array formulas vs. legacy CSE array
 formulas].
 
- In `rust_xlsxwriter` you can use the [`worksheet.write_array_formula()`]
+ In `rust_xlsxwriter` you can use the [`Worksheet::write_array_formula()`]
 function to get a static/CSE range and
-[`worksheet.write_dynamic_array_formula()`] or
-[`worksheet.write_dynamic_formula()`] to get a dynamic range.
+[`Worksheet::write_dynamic_array_formula()`] or
+[`Worksheet::write_dynamic_formula()`] to get a dynamic range.
 
-[`worksheet.write_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_array_formula
-[`worksheet.write_dynamic_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_dynamic_formula
-[`worksheet.write_dynamic_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.write_dynamic_array_formula
+[`Worksheet::write_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_array_formula
+[`Worksheet::write_dynamic_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_dynamic_formula
+[`Worksheet::write_dynamic_array_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_dynamic_array_formula
 
 [Dynamic array formulas in Excel]: https://exceljet.net/dynamic-array-formulas-in-excel
 [Dynamic array formulas vs. legacy CSE array formulas]: https://support.microsoft.com/en-us/office/dynamic-array-formulas-vs-legacy-cse-array-formulas-ca421f1b-fbb2-4c99-9924-df571bd4f1b4
 
-The `worksheet.write_dynamic_array_formula()` function takes a `(first_row,
+The `Worksheet::write_dynamic_array_formula()` function takes a `(first_row,
 first_col, last_row, last_col)` cell range to define the area that the formula
 applies to. However, since the range is dynamic this generally won't be known in
 advance in which case you can specify the range with the same start and end
@@ -71,7 +71,7 @@ cell. The following range is "F2:F2":
 ```rust
     worksheet1.write_dynamic_array_formula(1, 5, 1, 5, "=FILTER(A1:D17,C1:C17=K2)")?;
 ```
-As a syntactic shortcut you can use the `worksheet.write_dynamic_formula()`
+As a syntactic shortcut you can use the `Worksheet::write_dynamic_formula()`
 function which only requires the start cell:
 
 ```rust
@@ -110,7 +110,7 @@ operates on, and returns, a single value. However the formula now contains a "@"
 operator to show that it is implicitly using a single value from the given
 range.
 
-In Excel 365, and with `worksheet.write_dynamic_formula()` in `rust_xlsxwriter`,
+In Excel 365, and with `Worksheet::write_dynamic_formula()` in `rust_xlsxwriter`,
 it would operate on the entire range and return an array of values:
 
 ![Image of output from doc_working_with_formulas_dynamic_len.rs](../../images/intersection03.png)
@@ -120,8 +120,8 @@ If you are encountering the Implicit Intersection Operator "@" for the first
 time then it is probably from a point of view of "why is Excel/rust_xlsxwriter
 putting @s in my formulas". In practical terms if you encounter this operator,
 and you don't intend it to be there, then you should probably write the formula
-as a CSE or dynamic array function using [`worksheet.write_array_formula()`] or
-[`worksheet.write_dynamic_array_formula()`]
+as a CSE or dynamic array function using [`Worksheet::write_array_formula()`] or
+[`Worksheet::write_dynamic_array_formula()`]
 
 
 A full explanation of this operator is given in the Microsoft documentation on

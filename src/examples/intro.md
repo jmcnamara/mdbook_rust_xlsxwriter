@@ -1,16 +1,18 @@
 # Cookbook Examples
 
 This section contains sample applications that demonstrate different features of
-the `rust_xlsxwriter`library.
+the `rust_xlsxwriter` library.
 
 - [Hello World](./hello_world.md): Simple getting started example.
 - [Feature demo](./demo.md): Demonstrates more features of the library.
 - [Cell formatting](./formatting.md): Demonstrates various formatting options.
 - [Merging cells](./merge_range.md): An example of merging cell ranges.
-- [Autofilters](./autofilter.md): Add an autofilter to a worksheet.
-- [Tables](./tables.md): Add worksheet tables to a worksheet.
-- [Conditional Formatting](./conditional_formats.md)
-- [Autofitting Columns](./autofit.md): Example of autofitting column widths.
+- [Adding autofilters](./autofilter.md): Add an autofilter to a worksheet.
+- [Autofitting columns](./autofit.md): Example of autofitting column widths.
+- [Adding worksheet tables](./tables.md): Add worksheet tables to a worksheet.
+- [Adding conditional formatting](./conditional_formats.md): Add conditional formats to a worksheet.
+- [Using data validation](./data_validation.md): Add data validation to cells in a worksheet.
+- [Adding cell notes](./notes.md): Add a Note to a cell.
 - [Extending generic write()](./generic_write.md): Example of extending the `write()` method to handle user data types.
 - [Rich strings](./rich_strings.md): Add multi-font "rich" strings to a worksheet.
 - [Format colors](./colors.md): Creates a palette of the available colors.
@@ -26,17 +28,27 @@ the `rust_xlsxwriter`library.
 - [Chart: Pie](./pie_chart.md): Excel Pie chart example.
 - [Chart: Stock](./stock_chart.md): Excel Stock chart example.
 - [Chart: Doughnut](./doughnut_chart.md): Excel Doughnut chart example.
+- [Chart: Using a secondary axis](./chart_secondary_axis.md): An example of a creating a chart with a secondary axis.
+- [Chart: Create a combined chart](./chart_combined.md): An example of combining two chart types in one.
+- [Chart: Create a combined pareto chart](./chart_pareto.md): An example of a combined Pareto chart.
 - [Chart: Pattern Fill](./chart_pattern.md): Example of a chart with Pattern Fill.
 - [Chart: Gradient Fill](./chart_gradient.md): Example of a chart with Gradient Fill.
-- [Chart: Data table](examples/chart_data_table.md)
-- [Chart: Data tools](examples/chart_data_tools.md)
-- [Insert images](./images.md): Add images to a worksheet.
-- [Insert images to fit](./insert_image_to_fit.md): Inserting images to fit cell
+- [Chart: Data table](./chart_data_table.md): Example of adding a data table below a chart.
+- [Chart: Data tools](./chart_data_tools.md): Example of chart data analysis tools like trendlines.
+- [Chart: Gauge Chart](./chart_gauge.md): Example of composite "gauge" chart data.
+- [Sparklines: Simple example](./sparklines1.md): A simple example of sparklines.
+- [Macros: Adding macros to a workbook](examples/macros.md): Adding a macro to a worksheet.
+- [Sparklines: Example with optional properties](./sparklines2.md): An advanced example of sparklines showing available options.
+- [Inserting images](./images.md): Add images to a worksheet.
+- [Embedding images in cells](./embedded_images.md): An example of embedding images in a cell.
+- [Inserting images to fit](./insert_image_to_fit.md): Inserting images to fit cell
 - [Right to left display](./right_to_left.md): Sets a worksheet into right to left format.
-- [Defined names](./defined_names.md): How to use user defined variable names in worksheets.
+- [Using defined names](./defined_names.md): How to use user defined variable names in worksheets.
 - [Dynamic array formulas](./dynamic_arrays.md): Examples of dynamic arrays and formulas.
 - [Excel LAMBDA() function](./lambda.md): Example of using the Excel 365+ LAMBDA() function.
 - [Headers and Footers](./headers.md): Shows how to set headers and footers.
-- [Setting document properties](./doc_properties.md) Set the metadata properties for a workbook.
+- [Setting document properties](./doc_properties.md): Set the metadata properties for a workbook.
+- [Setting the Sensitivity Label](./doc_sensitivity_label.md): Setting the Sensitivity Label for a Document.
 - [Adding a watermark](./watermark.md): Adding a watermark to a worksheet by adding an image to the header.
 - [Freeze Panes](./panes.md): Example of setting freeze panes in worksheets.
+- [Worksheet protection](./protection.md): Example of setting worksheet protection properties.

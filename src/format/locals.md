@@ -1,10 +1,10 @@
 # Number Formats in different Locales
 
-As shown in the previous section the `format.set_num_format()` method is used to
+As shown in the previous section the `Format::set_num_format()` method is used to
 set the number format for `rust_xlsxwriter` formats. A common use case is to set
 a number format with a "grouping/thousands" separator and a "decimal" point:
 
-[`format.set_num_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Format.html#method.set_num_format
+[`Format::set_num_format()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Format.html#method.set_num_format
 
 
 ```rust

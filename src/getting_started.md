@@ -12,7 +12,6 @@ Create a new rust command-line application as follows:
 $ cargo new hello-xlsx
 ```
 
-
 This will create a directory like the following:
 
 ```bash

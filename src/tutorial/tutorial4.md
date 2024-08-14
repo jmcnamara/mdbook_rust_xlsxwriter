@@ -8,7 +8,7 @@ this:
 
 We use the [`Chart`] struct to represent the chart.
 
-[`Chart`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Chart.html
+[`Chart`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/chart/struct.Chart.html
 
 The [`Chart`] struct has a lot of configuration options and sub-structs to
 replicate Excel's chart features but as an initial demonstration we will just

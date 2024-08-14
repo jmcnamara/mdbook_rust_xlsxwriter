@@ -12,4 +12,4 @@ The [`Worksheet`] struct struct represents an Excel worksheet. It handles operat
 
 For more details on the Worksheet APIs see the docs.rs docs for [`Worksheet`].
 
-[`Worksheet`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html
+[`Worksheet`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html

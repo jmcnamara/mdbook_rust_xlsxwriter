@@ -6,7 +6,7 @@ that some data is shown and some is hidden.
 
 ![Image of output from app_autofilter.rs](../../images/app_autofilter1.png)
 
-In rust_xlsxwriter this is set using the [`worksheet.autofilter()`] method:
+In rust_xlsxwriter this is set using the [`Worksheet::autofilter()`] method:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/app_autofilter.rs:27:27}}
@@ -162,20 +162,20 @@ in the examples above. However, there are some limitations such as:
   currently supported.
 
 If you have some filter criteria that isn't handled correctly you can add to the
-filtered rows by using [`worksheet.set_row_hidden()`].
+filtered rows by using [`Worksheet::set_row_hidden()`].
 
 If the auto-hiding is incorrect you can also turn it off and handle it manually
-using [`worksheet.filter_automatic_off()`] or [`worksheet.set_row_unhidden()`].
+using [`Worksheet::filter_automatic_off()`] or [`Worksheet::set_row_unhidden()`].
 
 
 
 
 [`FilterCriteria`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.FilterCriteria.html
 [`FilterCondition`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.FilterCondition.html
-[`worksheet.autofilter()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.autofilter
-[`worksheet.set_row_hidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_row_hidden
-[`worksheet.set_row_unhidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_row_unhidden
-[`worksheet.filter_automatic_off()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.filter_automatic_off
+[`Worksheet::autofilter()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.autofilter
+[`Worksheet::set_row_hidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_row_hidden
+[`Worksheet::set_row_unhidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_row_unhidden
+[`Worksheet::filter_automatic_off()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.filter_automatic_off
 [`FilterCondition.add_list_filter()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.FilterCondition.html#method.add_list_filter
 [`FilterCondition.add_custom_filter()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.FilterCondition.html#method.add_custom_filter
 [`FilterCondition.add_custom_boolean_or()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.FilterCondition.html#method.add_custom_boolean_or

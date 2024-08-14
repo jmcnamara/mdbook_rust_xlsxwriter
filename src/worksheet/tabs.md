@@ -13,7 +13,7 @@ emulate this functionality.
 
 ## Worksheet names
 
-The worksheet name can be set with [`worksheet.set_name()`]:
+The worksheet name can be set with [`Worksheet::set_name()`]:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_name.rs:13:16}}
@@ -43,7 +43,7 @@ In Excel the visible worksheet in a group of worksheets is known as the active
 worksheet. Since only one worksheet is in the foreground at any one time there
 can only be one active worksheet.
 
-With `rust_xlsxwriter` the [`worksheet.set_active()`] method is used to specify
+With `rust_xlsxwriter` the [`Worksheet::set_active()`] method is used to specify
 which worksheet is active. If no worksheet is set as the active worksheet then
 the default is to have the first one active, like in Excel.
 
@@ -60,14 +60,14 @@ Which gives the following output:
 If you have a lot of worksheets then they may not all fit on the screen at the
 same time. In cases like that the active worksheet will still be visible but its
 tab may not be. In those, rare, cases you can use the
-[`worksheet.set_first_tab()`] method to set the first visible tab (not
+[`Worksheet::set_first_tab()`] method to set the first visible tab (not
 worksheet) in a group of worksheets.
 
 ## Setting worksheet tab colors
 
 Another way of highlighting one or more worksheets in Excel is to set the tab
 color. With `rust_xlsxwriter` this is achieved with
-[`worksheet.set_tab_color()`] and a [`Color`] color:
+[`Worksheet::set_tab_color()`] and a [`Color`] color:
 
 ```rust
 {{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_worksheet_set_tab_color.rs:12:22}}
@@ -81,7 +81,7 @@ Which gives the following output:
 
 Sometimes it is desirable to hide worksheets if they contain a lot of
 intermediate data or calculations that end user doesn't need to see. With
-`rust_xlsxwriter` this is achieved with the [`worksheet.set_hidden()`]
+`rust_xlsxwriter` this is achieved with the [`Worksheet::set_hidden()`]
 method:
 
 ```rust
@@ -93,8 +93,8 @@ Which gives the following output:
 ![Image of output from doc_worksheet_set_hidden.rs](../../images/worksheet_set_hidden.png)
 
 In Excel a hidden worksheet can not be activated or selected so
-`worksheet.set_hidden()` is mutually exclusive with the `worksheet.set_active()`
-and `worksheet.set_selected()` methods. In addition, since the first worksheet
+`Worksheet::set_hidden()` is mutually exclusive with the `Worksheet::set_active()`
+and `Worksheet::set_selected()` methods. In addition, since the first worksheet
 will default to being the active worksheet, you cannot hide the first worksheet
 without activating another sheet.
 
@@ -105,10 +105,10 @@ A selected worksheet has its tab highlighted. Selecting worksheets is a way of
 grouping them together so that, for example, several worksheets could be printed
 in one go.
 
-The [`worksheet.set_selected()`] method is used to indicate that a
+The [`Worksheet::set_selected()`] method is used to indicate that a
 worksheet is selected in a multi-sheet workbook.
 
-A worksheet that has been activated via the `worksheet.set_active()` method will
+A worksheet that has been activated via the `Worksheet::set_active()` method will
 also appear as selected.
 
 ```rust
@@ -129,10 +129,10 @@ Sheet3 isn't:
 
 
 [`Color`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/enum.Color.html
-[`worksheet.set_name()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_name
-[`worksheet.set_active()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_active
-[`worksheet.set_hidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_hidden
-[`worksheet.set_selected()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_selected
-[`worksheet.set_tab_color()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_tab_color
-[`worksheet.set_first_tab()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/struct.Worksheet.html#method.set_first_tab
+[`Worksheet::set_name()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_name
+[`Worksheet::set_active()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_active
+[`Worksheet::set_hidden()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_hidden
+[`Worksheet::set_selected()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_selected
+[`Worksheet::set_tab_color()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_tab_color
+[`Worksheet::set_first_tab()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.set_first_tab
 [Microsoft Office documentation]: https://support.office.com/en-ie/article/rename-a-worksheet-3f1f7148-ee83-404d-8ef0-9ff99fbad1f9
