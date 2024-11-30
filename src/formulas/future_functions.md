@@ -5,48 +5,21 @@ original file specification. These functions are referred to by Microsoft as
 "Future Functions". Examples of these functions are `ACOT`, `CHISQ.DIST.RT` ,
 `CONFIDENCE.NORM`, `STDEV.P`, `STDEV.S` and `WORKDAY.INTL`.
 
-When written using [`Worksheet::write_formula()`] these functions need to be
-fully qualified with a prefix such as `_xlfn.`, as shown the table in the next
-section below.
+Although these formulas are displayed as normal in Excel they are stored with a
+prefix. For example `STDEV.S(B1:B5)` is stored in the Excel file as
+`xlfn.STDEV.S(B1:B5)`. The `rust_xlsxwriter` crate makes these changes
+automatically so in general you don't have to worry about this unless you are
+dealing with features such as Lambda functions, see above. However, if required
+you can manually prefix any required function with the `_xlfn.` prefix.
 
-[`Worksheet::write_formula()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.write_formula
+For completeness the following is a list of future functions taken from [MS XLSX
+extensions documentation on future functions].
 
-If the prefix isn't included you will get an Excel function name error. For example:
+[MS XLSX extensions documentation on future functions]:
+    http://msdn.microsoft.com/en-us/library/dd907480%28v=office.12%29.aspx
 
-```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future1.rs:15}}
-```
-
-![Image of output from doc_working_with_formulas_future1.rs](../../images/working_with_formulas3.png)
-
-If the `_xlfn.` prefix is included you will get the correct result:
-
-```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future2.rs:15}}
-```
-
-
-![Image of output from doc_working_with_formulas_future2.rs](../../images/working_with_formulas2.png)
-
-**Note**: The function is displayed by Excel without the prefix.
-
-Alternatively you can use the [`Worksheet::use_future_functions()`] function to
-have `rust_xlsxwriter` automatically handle future functions for you:
-
-[`Worksheet::use_future_functions()`]: https://docs.rs/rust_xlsxwriter/latest/rust_xlsxwriter/worksheet/struct.Worksheet.html#method.use_future_functions
-
-
-```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/doc_working_with_formulas_future3.rs:15:16}}
-```
-
-This will give the same correct result as the image above.
-
-
-## List of Future Functions
-
-The following list is taken from [MS XLSX extensions documentation on future
-functions].
+Note, the Python in Excel functions aren't simple functions and aren't
+supported.
 
 [MS XLSX extensions documentation on future functions]: http://msdn.microsoft.com/en-us/library/dd907480%28v=office.12%29.aspx
 

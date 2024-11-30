@@ -23,7 +23,7 @@ See [`ConditionalFormatCell`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:73:85}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:71:83}}
 ```
 
 
@@ -39,7 +39,7 @@ See [`ConditionalFormatCell`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:107:119}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:103:115}}
 ```
 
 
@@ -55,7 +55,7 @@ See [`ConditionalFormatDuplicate`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:140:151}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:134:145}}
 ```
 
 
@@ -71,7 +71,7 @@ See [`ConditionalFormatAverage`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:172:182}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:164:174}}
 ```
 
 
@@ -87,7 +87,7 @@ See [`ConditionalFormatTop`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:203:215}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:193:205}}
 ```
 
 
@@ -100,7 +100,7 @@ ranges.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:236:250}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:224:238}}
 ```
 
 
@@ -116,7 +116,7 @@ See [`ConditionalFormatFormula`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:271:283}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:257:269}}
 ```
 
 
@@ -132,7 +132,7 @@ See [`ConditionalFormatText`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:320:348}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:306:334}}
 ```
 
 
@@ -147,7 +147,7 @@ See [`ConditionalFormat2ColorScale`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:375:410}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:359:394}}
 ```
 
 
@@ -162,7 +162,7 @@ See [`ConditionalFormat3ColorScale`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:437:478}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:419:460}}
 ```
 
 
@@ -177,7 +177,7 @@ See [`ConditionalFormatDataBar`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:503:522}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:485:504}}
 ```
 
 
@@ -193,5 +193,5 @@ See [`ConditionalFormatIconSet`] for more details.
 Code to generate the above example:
 
 ```rust
-{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:571:643}}
+{{#rustdoc_include ../../../rust_xlsxwriter/examples/app_conditional_formatting.rs:553:625}}
 ```

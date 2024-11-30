@@ -42,6 +42,7 @@ the `rust_xlsxwriter` library.
 - [Inserting images](./images.md): Add images to a worksheet.
 - [Embedding images in cells](./embedded_images.md): An example of embedding images in a cell.
 - [Inserting images to fit](./insert_image_to_fit.md): Inserting images to fit cell
+- [Inserting Textboxes in worksheets](./textbox.md): Inserting Textboxes in worksheets
 - [Right to left display](./right_to_left.md): Sets a worksheet into right to left format.
 - [Using defined names](./defined_names.md): How to use user defined variable names in worksheets.
 - [Dynamic array formulas](./dynamic_arrays.md): Examples of dynamic arrays and formulas.
