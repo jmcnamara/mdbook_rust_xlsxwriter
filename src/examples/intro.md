@@ -16,6 +16,8 @@ the `rust_xlsxwriter` library.
 - [Extending generic write()](./generic_write.md): Example of extending the `write()` method to handle user data types.
 - [Rich strings](./rich_strings.md): Add multi-font "rich" strings to a worksheet.
 - [Format colors](./colors.md): Creates a palette of the available colors.
+- [Theme: custom](./theme_custom.md): Use a custom workbook theme
+- [Theme: Excel 2023/Aptos](./theme_2023.md): Use the Excel 2023/Aptos theme
 - [Hyperlinks](./hyperlinks.md): Add hyperlinks to a worksheet.
 - [Chart: Simple](./simple_chart.md): Simple getting started chart example.
 - [Chart: Styles](./chart_styles.md): Example of setting default chart styles.
@@ -31,18 +33,23 @@ the `rust_xlsxwriter` library.
 - [Chart: Using a secondary axis](./chart_secondary_axis.md): An example of a creating a chart with a secondary axis.
 - [Chart: Create a combined chart](./chart_combined.md): An example of combining two chart types in one.
 - [Chart: Create a combined pareto chart](./chart_pareto.md): An example of a combined Pareto chart.
+- [Chart: Create a clustered/2D category char](./chart_clustered.md): An example of a chart with a clustered 2D category.
 - [Chart: Pattern Fill](./chart_pattern.md): Example of a chart with Pattern Fill.
 - [Chart: Gradient Fill](./chart_gradient.md): Example of a chart with Gradient Fill.
 - [Chart: Data table](./chart_data_table.md): Example of adding a data table below a chart.
 - [Chart: Data tools](./chart_data_tools.md): Example of chart data analysis tools like trendlines.
 - [Chart: Gauge Chart](./chart_gauge.md): Example of composite "gauge" chart data.
 - [Sparklines: Simple example](./sparklines1.md): A simple example of sparklines.
-- [Macros: Adding macros to a workbook](examples/macros.md): Adding a macro to a worksheet.
+- [Macros: Adding macros to a workbook](./macros.md): Adding a macro to a worksheet.
 - [Sparklines: Example with optional properties](./sparklines2.md): An advanced example of sparklines showing available options.
 - [Inserting images](./images.md): Add images to a worksheet.
 - [Embedding images in cells](./embedded_images.md): An example of embedding images in a cell.
 - [Inserting images to fit](./insert_image_to_fit.md): Inserting images to fit cell
+- [Inserting Checkboxes in worksheets](./checkbox.md): Inserting Checkboxes in worksheets
 - [Inserting Textboxes in worksheets](./textbox.md): Inserting Textboxes in worksheets
+- [Ignoring Excel cell errors](./ignore_errors.md)
+- [Create row outline groups](./grouped_rows.md)
+- [Create column outline groups](./grouped_columns.md)
 - [Right to left display](./right_to_left.md): Sets a worksheet into right to left format.
 - [Using defined names](./defined_names.md): How to use user defined variable names in worksheets.
 - [Dynamic array formulas](./dynamic_arrays.md): Examples of dynamic arrays and formulas.
@@ -50,6 +57,8 @@ the `rust_xlsxwriter` library.
 - [Headers and Footers](./headers.md): Shows how to set headers and footers.
 - [Setting document properties](./doc_properties.md): Set the metadata properties for a workbook.
 - [Setting the Sensitivity Label](./doc_sensitivity_label.md): Setting the Sensitivity Label for a Document.
-- [Adding a watermark](./watermark.md): Adding a watermark to a worksheet by adding an image to the header.
+- [Creating a Table of Contents](./app_toc.md): Using internal links to create a Table of Contents.
+- [Adding a watermark as a header image](./watermark.md): Adding a watermark to a worksheet by adding an image to the header.
+- [Adding a watermark as a background image](./background_image.md): Adding a watermark to a worksheet by adding a background image.
 - [Freeze Panes](./panes.md): Example of setting freeze panes in worksheets.
 - [Worksheet protection](./protection.md): Example of setting worksheet protection properties.
