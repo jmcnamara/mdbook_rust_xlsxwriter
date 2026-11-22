@@ -10,14 +10,15 @@ the `rust_xlsxwriter` library.
 - [Adding autofilters](./autofilter.md): Add an autofilter to a worksheet.
 - [Autofitting columns](./autofit.md): Example of autofitting column widths.
 - [Adding worksheet tables](./tables.md): Add worksheet tables to a worksheet.
+- [Adding pivot tables](./pivot_tables.md): Add pivot tables to a worksheet.
 - [Adding conditional formatting](./conditional_formats.md): Add conditional formats to a worksheet.
 - [Using data validation](./data_validation.md): Add data validation to cells in a worksheet.
 - [Adding cell notes](./notes.md): Add a Note to a cell.
 - [Extending generic write()](./generic_write.md): Example of extending the `write()` method to handle user data types.
 - [Rich strings](./rich_strings.md): Add multi-font "rich" strings to a worksheet.
 - [Format colors](./colors.md): Creates a palette of the available colors.
-- [Theme: custom](./theme_custom.md): Use a custom workbook theme
-- [Theme: Excel 2023/Aptos](./theme_2023.md): Use the Excel 2023/Aptos theme
+- [Theme: use a custom theme](./theme_custom.md): Use a custom workbook theme
+- [Theme: use the Excel 2023 theme](./theme_2023.md): Use the Excel 2023/Aptos theme
 - [Hyperlinks](./hyperlinks.md): Add hyperlinks to a worksheet.
 - [Chart: Simple](./simple_chart.md): Simple getting started chart example.
 - [Chart: Styles](./chart_styles.md): Example of setting default chart styles.
@@ -33,14 +34,16 @@ the `rust_xlsxwriter` library.
 - [Chart: Using a secondary axis](./chart_secondary_axis.md): An example of a creating a chart with a secondary axis.
 - [Chart: Create a combined chart](./chart_combined.md): An example of combining two chart types in one.
 - [Chart: Create a combined pareto chart](./chart_pareto.md): An example of a combined Pareto chart.
-- [Chart: Create a clustered/2D category char](./chart_clustered.md): An example of a chart with a clustered 2D category.
+- [Chart: Create a clustered/2D category chart](./chart_clustered.md): An example of a chart with a clustered 2D category.
 - [Chart: Pattern Fill](./chart_pattern.md): Example of a chart with Pattern Fill.
 - [Chart: Gradient Fill](./chart_gradient.md): Example of a chart with Gradient Fill.
 - [Chart: Data table](./chart_data_table.md): Example of adding a data table below a chart.
 - [Chart: Data tools](./chart_data_tools.md): Example of chart data analysis tools like trendlines.
 - [Chart: Gauge Chart](./chart_gauge.md): Example of composite "gauge" chart data.
-- [Sparklines: Simple example](./sparklines1.md): A simple example of sparklines.
+- [Chart: Chartsheet](./chartsheet.md): Example of a chartsheet containing a chart.
 - [Macros: Adding macros to a workbook](./macros.md): Adding a macro to a worksheet.
+- [Custom UI: Adding a custom ribbon tab](./custom_ui.md): Add a custom ribbon tab with a macro button to a workbook.
+- [Sparklines: Simple example](./sparklines1.md): A simple example of sparklines.
 - [Sparklines: Example with optional properties](./sparklines2.md): An advanced example of sparklines showing available options.
 - [Inserting images](./images.md): Add images to a worksheet.
 - [Embedding images in cells](./embedded_images.md): An example of embedding images in a cell.

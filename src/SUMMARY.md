@@ -40,7 +40,17 @@
     - [Formulas added in Excel 2010 and later](formulas/future_functions.md)
     - [Dealing with formula errors](formulas/errors.md)
 
+- [Working with Charts](chart/chart.md)
+
+- [Working with Conditional Formats](conditional_format/conditional_format.md)
+
 - [Working with Autofilters](autofilters/autofilters.md)
+
+- [Working with Serde](serializer/serializer.md)
+
+- [Working with Macros](macros/macros.md)
+
+- [Working with Custom UI elements/Ribbons](custom_ui/custom_ui.md)
 
 - [Cookbook Examples](examples/intro.md)
     - [Hello World](examples/hello_world.md)
@@ -82,6 +92,7 @@
     - [Chart: Gauge Chart](examples/chart_gauge.md)
     - [Chart: Chartsheet](examples/chartsheet.md)
     - [Macros: Adding macros to a workbook](examples/macros.md)
+    - [Custom UI: Adding a custom ribbon tab](examples/custom_ui.md)
     - [Sparklines: Simple example](examples/sparklines1.md)
     - [Sparklines: Example with optional properties](examples/sparklines2.md)
     - [Inserting images](examples/images.md)
